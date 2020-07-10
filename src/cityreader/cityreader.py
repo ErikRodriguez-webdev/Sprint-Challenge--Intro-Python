@@ -30,7 +30,7 @@ def cityreader(cities=[]):
     # TODO Implement the functionality to read from the 'cities.csv' file
     # For each city record, create a new City instance and add it to the
     # `cities` list
-    with open("cities.csv") as document:
+    with open("src/cityreader/cities.csv") as document:
         reader = csv.reader(document)
         list_data = list(reader)
         list_data.pop(0)
